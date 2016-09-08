@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Word_Maze_Maker.exe" version="1.0.0.1" publicKeyToken="be0ead0d6e23dfad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Word_Maze_Maker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Word_Maze_Maker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Word_Maze_Maker.exe" size="9640">
+      <assemblyIdentity name="Word_Maze_Maker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0qkW1sukDmg8k28TC1oLQuL1/KhkwdzRolca3pm7bb0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Word_Maze_Maker.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=asus\win8.1" issuerKeyHash="6ebf7c67fb9542d5672970a9b0618b3d0c0d3b84" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yJWKId9/W1VMq9hV/KBdzocHsOrjbxZUojHRbtLe/70=</DigestValue></Reference></SignedInfo><SignatureValue>aWnLa9pQq7fgc7jUKo6bOpQ7GpSYDETXCXTO1f5Q+Idwgnf2SHHrnkgVl3dmVlYTzwWRAoxd3DalrBtHiAJv9MYQsmApFDQ3R49R6MvINtkewxSfACzX0rHqxS/PVhZj2m4LKlND0CEpQS7TIxQRYKsmiw0+9TYvBS0CGl4ijR8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3GPzYbGOLFncpJqLSTYfh7eonkAxG5rYHVBm400OXD9tvpdZlJ7F27JDnCWtT3iMTQyOJ6SzaUunslbcm3zMMw1Ri8dNWKef2az6K9u7CPJz7zGe9XoB1cefmW0eZT+jrL4bAQmXDb5Dh4GmruXRDzJDIHayscR6i3KiR0E4jAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bdffded26ed131a254166fe3eab00787ce5da0fc55d8ab4c555b7fdf218a95c8" Description="" Url=""><as:assemblyIdentity name="Word_Maze_Maker.exe" version="1.0.0.1" publicKeyToken="be0ead0d6e23dfad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=asus\win8.1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L2L7lvYtWHJEgSw8dcOPPESz4Qx0ANCvbCfO2KONL+w=</DigestValue></Reference></SignedInfo><SignatureValue>sO5V/ll3kknx4KTuxDiTsSQGaEwzRQPGUd5cC5NTgmsSzV85bbSdTbG5vdfSsPx+HaxT2MRCGtYGAsErrFWMI2O3et7QGFN7YD+LO+GgkgeXpcDTJutEY0yLgbQbd/1m+mowOoCPxhJuCBmOGlF0ax3R6dRYh5Mk6PzalmB9nIs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3GPzYbGOLFncpJqLSTYfh7eonkAxG5rYHVBm400OXD9tvpdZlJ7F27JDnCWtT3iMTQyOJ6SzaUunslbcm3zMMw1Ri8dNWKef2az6K9u7CPJz7zGe9XoB1cefmW0eZT+jrL4bAQmXDb5Dh4GmruXRDzJDIHayscR6i3KiR0E4jAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHtuPjLKxAYVLjqjFQzBqVzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAYQBzAHUAcwBcAHcAaQBuADgALgAxMB4XDTE2MDkwODE2MDgwNVoXDTE3MDkwODIyMDgwNVowITEfMB0GA1UEAx4WAGEAcwB1AHMAXAB3AGkAbgA4AC4AMTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3GPzYbGOLFncpJqLSTYfh7eonkAxG5rYHVBm400OXD9tvpdZlJ7F27JDnCWtT3iMTQyOJ6SzaUunslbcm3zMMw1Ri8dNWKef2az6K9u7CPJz7zGe9XoB1cefmW0eZT+jrL4bAQmXDb5Dh4GmruXRDzJDIHayscR6i3KiR0E4jAUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBKgXS05LhvqXw7lK6y4V9dl23Tk69dJ6beth691oW4U/qCbwJbWRt0eljpwUGCnQbVcyGCVGAFqOCjC6tea7N9VK8119rPQeda1c0KpJYbiL+imvezKjvijLeUIII2VLrY9A97GaMOmaMzQyYCpH1SijRkXAd8G/Ku5Fey7lsFnA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
